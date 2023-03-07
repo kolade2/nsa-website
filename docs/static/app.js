@@ -3,7 +3,7 @@ var navLinks = document.querySelectorAll(" nav a");
 
 const eboard_page = document.querySelector('#ebd_btn');
 eboard_page.addEventListener('click', function(){
-location.href = 'eboard.html';
+location.href = 'docs/templates/eboard.html';
 });
 
 // const instagram = document.querySelector('#ig');
