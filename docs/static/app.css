@@ -250,7 +250,9 @@ section .eboard-button:active {
     margin-bottom: 20px;
     color: rgb(7, 34, 0);
 }
-
+#upcoming-events{
+    min-height: 45vh;
+}
 /* Style the contact information */
 #contact p {
     font-size: 1.1em;
