@@ -164,8 +164,8 @@ section {
     left: 0;
     right: 0;
     width: 100%;
-    min-height: 30vh;
-    padding-top: 40px;
+    min-height: fit-content;
+    padding-top: 20px;
     margin: auto;
     padding: auto;
     text-align: justify;
@@ -222,14 +222,6 @@ section .eboard-button:active {
     float: right;
     margin: 0 0 20px 20px;
     border-radius: 10px;
-}
-
-#upcoming-events {
-    min-height: 55vh;
-}
-
-#about-us {
-    color: #000000;
 }
 
 .calendar-wrapper {
@@ -450,11 +442,11 @@ header{
     }
 
     #upcoming-events {
-        min-height: fit-content;
+        max-height: fit-content;
     }
     
     #who-we-are {
-        min-height: fit-content;
+        max-height: fit-content;
         color: #000000;
     }
     .pastevents{
