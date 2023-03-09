@@ -12,12 +12,12 @@ body {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto'; /* Use the Open Sans font for headings */
+    font-family: 'Lato'; /* Use the Open Sans font for headings */
     font-weight: bold; /* Make the headings bold */
 }
 
 .nav {
-    font-family: 'Roboto';
+    font-family: 'Lato';
     top: 0;
     left: 0;
     right: 0;
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 .nav2 {
-    font-family:'Roboto';
+    font-family:'Lato';
     top: 0;
     left: 0;
     right: 0;
@@ -412,8 +412,17 @@ header{
         flex-direction: column;
     }
 
+    #upcoming-events {
+        min-height: fit-content;
+    }
+    
+    #who-we-are {
+        min-height: fit-content;
+        color: #000000;
+    }
     .upcoming-events-text{
         width: 100%;
+        min-height: fit-content;
     }
     .upcoming-events-carousel{
         width: 100%;
